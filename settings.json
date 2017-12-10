@@ -1,7 +1,7 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "sync.gist": "dea8c3025ff11b99cf9073acbdce6808",
-    "sync.lastUpload": "",
+    "sync.lastUpload": "2017-12-10T04:55:10.884Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -10,5 +10,7 @@
     "sync.host": "",
     "sync.pathPrefix": "",
     "sync.quietSync": false,
-    "sync.askGistName": false
+    "sync.askGistName": false,
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Monokai Pro"
 }

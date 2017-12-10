@@ -21,6 +21,36 @@
   },
   {
     "metadata": {
+      "id": "5db78037-f674-459f-a236-db622c427c5b",
+      "publisherId": "PKief.material-icon-theme",
+      "publisherDisplayName": "PKief"
+    },
+    "name": "material-icon-theme",
+    "publisher": "PKief",
+    "version": "3.1.0"
+  },
+  {
+    "metadata": {
+      "id": "7f147721-ec06-4043-9e37-c9ffbecbccd1",
+      "publisherId": "whizkydee.material-palenight-theme",
+      "publisherDisplayName": "whizkydee"
+    },
+    "name": "material-palenight-theme",
+    "publisher": "whizkydee",
+    "version": "1.6.0"
+  },
+  {
+    "metadata": {
+      "id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
+      "publisherId": "zhuangtongfa.Material-theme",
+      "publisherDisplayName": "zhuangtongfa"
+    },
+    "name": "Material-theme",
+    "publisher": "zhuangtongfa",
+    "version": "2.10.23"
+  },
+  {
+    "metadata": {
       "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
       "publisherId": "ms-python.python",
       "publisherDisplayName": "ms-python"
@@ -28,5 +58,25 @@
     "name": "python",
     "publisher": "ms-python",
     "version": "0.8.0"
+  },
+  {
+    "metadata": {
+      "id": "f5d7ffda-c1d6-4070-ba80-803c705a1ee6",
+      "publisherId": "monokai.theme-monokai-pro-vscode",
+      "publisherDisplayName": "monokai"
+    },
+    "name": "theme-monokai-pro-vscode",
+    "publisher": "monokai",
+    "version": "1.1.2"
+  },
+  {
+    "metadata": {
+      "id": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a",
+      "publisherId": "robertohuertasm.vscode-icons",
+      "publisherDisplayName": "robertohuertasm"
+    },
+    "name": "vscode-icons",
+    "publisher": "robertohuertasm",
+    "version": "7.19.0"
   }
 ]
