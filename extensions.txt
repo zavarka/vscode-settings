@@ -1,0 +1,8 @@
+PKief.material-icon-theme-3.1.0
+donjayamanne.githistory-0.2.3
+file-icons.file-icons-1.0.7
+monokai.theme-monokai-pro-vscode-1.1.2
+ms-python.python-0.8.0
+robertohuertasm.vscode-icons-7.19.0
+whizkydee.material-palenight-theme-1.6.0
+zhuangtongfa.material-theme-2.10.23
