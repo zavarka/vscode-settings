@@ -11,5 +11,6 @@
     "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.revealIfOpen": true,
     "workbench.iconTheme": "Monokai Pro Icons",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile"
 }
