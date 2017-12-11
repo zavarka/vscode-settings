@@ -21,9 +21,9 @@
     "python.linting.pylintArgs": [ "--disable=C0111, C0103, R0903" ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Monokai Dimmed",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "Monokai Classic Icons",
     "workbench.startupEditor": "none",
 }
