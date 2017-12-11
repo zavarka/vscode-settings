@@ -1,16 +1,26 @@
 {
     "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
-    "editor.minimap.maxColumn": 200,
-    "editor.minimap.showSlider": "always",
-    "editor.renderWhitespace": "none",
+    "editor.minimap.maxColumn": 120,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "mouseover",
+    "editor.renderWhitespace": "boundary",
     "editor.smoothScrolling": true,
     "explorer.decorations.colors": false,
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
     "git.decorations.enabled": true,
+    "gitlens.blame.line.enabled": false,
+    "gitlens.codeLens.enabled": true,
+    "python.formatting.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111, C0103, R0903"
+    ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.revealIfOpen": true,
+    "workbench.editor.showTabs": true,
     "workbench.iconTheme": "Monokai Pro Icons",
-    "git.autofetch": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "none",
 }
