@@ -17,6 +17,7 @@
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": true,
     "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.gitExplorer.enabled": true,
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [ "--disable=C0111, C0103, R0903" ],
