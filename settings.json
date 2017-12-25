@@ -21,7 +21,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [ "--disable=C0111, C0103, R0903" ],
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.showTabs": true,
     "workbench.iconTheme": "material-icon-theme",
