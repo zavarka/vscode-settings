@@ -10,7 +10,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.smoothScrolling": true,
     "explorer.decorations.colors": false,
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.decorations.enabled": true,
     "gitlens.blame.line.enabled": false,
