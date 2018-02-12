@@ -13,11 +13,12 @@
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.decorations.enabled": true,
-    "gitlens.blame.line.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": true,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.gitExplorer.enabled": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [ "--disable=C0111, C0103, R0903" ],
@@ -28,4 +29,12 @@
     "workbench.editor.showTabs": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "alt",
+    "[javascript]": {
+         "editor.tabSize": 2 
+        },
+    "[html]": {
+        "editor.tabSize": 2
+    },
 }
