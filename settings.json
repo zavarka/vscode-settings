@@ -1,7 +1,7 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.dragAndDrop": false,
-    "editor.fontFamily": "'Consolas','Courier New', Menlo, Monaco, 'Source Code Pro', monospace",
+    "editor.fontFamily": "Consolas, 'Anonymous Pro', 'Source Code Pro', 'Courier New', Menlo, Monaco, monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.minimap.enabled": true,
@@ -10,8 +10,7 @@
     "editor.minimap.showSlider": "mouseover",
     "editor.renderWhitespace": "boundary",
     "editor.smoothScrolling": true,
-    "explorer.decorations.colors": false,
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.decorations.enabled": true,
     "gitlens.codeLens.authors.enabled": false,
@@ -20,7 +19,9 @@
     "gitlens.gitExplorer.enabled": true,
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "python.linting.flake8Enabled": true,
-    "python.linting.pylintArgs": [ "--disable=C0111, C0103, R0903" ],
+    "python.linting.pylintArgs": [
+        "--disable=C0111, C0103, R0903"
+    ],
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Coffee Light (rainglow)",
     "workbench.editor.revealIfOpen": true,
@@ -29,4 +30,10 @@
     "workbench.startupEditor": "none",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "terminal.integrated.fontSize": 13,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
 }
