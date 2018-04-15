@@ -2,7 +2,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
-    "editor.fontFamily": "'Anonymous Pro', 'Source Code Pro', Consolas, 'Courier New', Menlo, Monaco, monospace",
+    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', Menlo, Monaco, monospace",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 120,
@@ -10,7 +10,7 @@
     "editor.minimap.showSlider": "mouseover",
     "editor.renderWhitespace": "boundary",
     "editor.smoothScrolling": true,
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "git.autofetch": true,
     "git.decorations.enabled": true,
     "gitlens.codeLens.authors.enabled": false,
@@ -26,8 +26,8 @@
         "--disable=C0111, C0103, R0903"
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Coffee Light (rainglow)",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.showTabs": true,
     "workbench.iconTheme": "material-icon-theme",
@@ -38,5 +38,17 @@
     },
     "[javascript]": {
         "editor.tabSize": 2
+    },
+    "editor.fontSize": 12,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
     },
 }
