@@ -1,8 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-    },
-    {
         "key": "cmd+k cmd+w",
         "command": "editor.action.toggleRenderWhitespace",
     }
