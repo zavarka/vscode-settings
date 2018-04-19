@@ -53,4 +53,5 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
+    "git.confirmSync": false,
 }
