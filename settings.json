@@ -15,6 +15,7 @@
     "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
+    "git.confirmSync": false,
     "git.decorations.enabled": true,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -53,5 +54,4 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
-    "git.confirmSync": false,
 }
