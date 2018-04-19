@@ -3,5 +3,13 @@
     {
         "key": "cmd+k cmd+w",
         "command": "editor.action.toggleRenderWhitespace",
+    },
+    {
+        "key": "shift+alt+b",
+        "command": "HookyQR.beautifyFile"
+    },
+    {
+        "key": "shift+alt+b",
+        "command": "HookyQR.beautify"
     }
 ]

@@ -36,6 +36,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.wait": 1000,
     "material-icon-theme.activeIconPack": "angular_ngrx",
+    "prettier.printWidth": 100,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [
         "--disable=C0111, C0103, R0903"
@@ -52,6 +53,6 @@
         "editor.tabSize": 2
     },
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4,
     },
 }
