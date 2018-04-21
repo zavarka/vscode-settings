@@ -34,6 +34,7 @@
     "gitlens.keymap": "chorded",
     "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.NoBrowser": true,
     "liveServer.settings.wait": 1000,
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "prettier.printWidth": 100,
