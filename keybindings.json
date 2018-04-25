@@ -15,5 +15,10 @@
     {
         "key": "shift+alt+c",
         "command": "workbench.debug.panel.action.clearReplAction"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
     }
 ]
