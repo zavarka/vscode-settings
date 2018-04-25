@@ -32,6 +32,7 @@
     "gitlens.codeLens.enabled": true,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.gitExplorer.enabled": true,
+    "gitlens.hovers.enabled": false,
     "gitlens.keymap": "chorded",
     "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.donotShowInfoMsg": true,
@@ -80,6 +81,12 @@
                     }
                 },
                 {
+                    "scope": "entity.name.function, support.function",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "entity.name.type",
                     "settings": {
                         "foreground": "#504a72",
@@ -96,14 +103,15 @@
                     "scope": "support.class, support.type.object",
                     "settings": {
                         "foreground": "#926031",
-                        "fontStyle": "italic",
                     }
                 },
                 {
                     "scope": "keyword.control",
                     "settings": {
                         //"foreground": "#f14a66"
-                        "foreground": "#357cce"
+                        "foreground": "#3596ce",
+                        //"foreground": "#439475",
+                        "fontStyle": "italic"
                     }
                 },
             ]
