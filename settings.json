@@ -12,6 +12,7 @@
     "editor.multiCursorModifier": "alt",
     "editor.renderWhitespace": "none",
     "editor.smoothScrolling": true,
+    "explorer.confirmDragAndDrop": false,
     "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
@@ -47,7 +48,7 @@
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "eq-material-theme-icons",
     "workbench.startupEditor": "none",
     "zenMode.hideTabs": false,
     "[html]": {

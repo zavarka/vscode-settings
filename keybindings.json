@@ -11,5 +11,9 @@
     {
         "key": "shift+alt+b",
         "command": "HookyQR.beautify"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "workbench.debug.panel.action.clearReplAction"
     }
 ]
