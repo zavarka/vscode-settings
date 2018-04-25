@@ -48,7 +48,7 @@
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.iconTheme": "file-icons",
     "workbench.startupEditor": "none",
     "zenMode.hideTabs": false,
     "[html]": {
@@ -56,5 +56,62 @@
     },
     "[javascript]": {
         "editor.tabSize": 4,
+    },
+    "editor.tokenColorCustomizations": {
+        "[Solarized Light]": {
+
+            "textMateRules": [
+                {
+                    "scope": "variable.other.object",
+                    "settings": {
+                        "foreground": "#2169a3"
+                    }
+                },
+                {
+                    "scope": "variable.other.property, variable.other.object.property",
+                    "settings": {
+                        "foreground": "#2168a3c2"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite, variable.parameter",
+                    "settings": {
+                        "foreground": "#504a72"
+                    }
+                },
+                {
+                    "scope": "entity.name.function, meta.object.member",
+                    "settings": {
+                        "foreground": "#504a72c2"
+                    }
+                }, {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#504a72",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "variable.language.this",
+                    "settings": {
+                        "foreground": "#504a72c2",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": "support.function, support.variable",
+                    "settings": {
+                        "foreground": "#cc751f"
+                    }
+                },
+                {
+                    "scope": "support.class",
+                    "settings": {
+                        "foreground": "#926031",
+                        "fontStyle": "italic",
+                    }
+                },
+            ]
+        },
     },
 }
