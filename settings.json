@@ -59,32 +59,27 @@
     },
     "editor.tokenColorCustomizations": {
         "[Solarized Light]": {
-
             "textMateRules": [
                 {
-                    "scope": "variable.other.object",
-                    "settings": {
-                        "foreground": "#2169a3"
-                    }
-                },
-                {
-                    "scope": "variable.other.property, variable.other.object.property",
-                    "settings": {
-                        "foreground": "#2168a3c2"
-                    }
-                },
-                {
-                    "scope": "variable.other.readwrite, variable.parameter",
+                    "scope": "variable.other.object, variable.other.readwrite, variable.other.property, variable.other.object.property",
                     "settings": {
                         "foreground": "#504a72"
                     }
                 },
                 {
-                    "scope": "entity.name.function, meta.object.member",
+                    "scope": "variable.parameter",
                     "settings": {
-                        "foreground": "#504a72c2"
+                        "foreground": "#000000",
+                        "fontStyle": "italic"
                     }
-                }, {
+                },
+                {
+                    "scope": "entity.name.function, meta.object-literal.key, support.function, support.variable",
+                    "settings": {
+                        "foreground": "#26718f"
+                    }
+                },
+                {
                     "scope": "entity.name.type",
                     "settings": {
                         "foreground": "#504a72",
@@ -94,21 +89,21 @@
                 {
                     "scope": "variable.language.this",
                     "settings": {
-                        "foreground": "#504a72c2",
-                        "fontStyle": "italic",
+                        "foreground": "#adadad",
                     }
                 },
                 {
-                    "scope": "support.function, support.variable",
-                    "settings": {
-                        "foreground": "#cc751f"
-                    }
-                },
-                {
-                    "scope": "support.class",
+                    "scope": "support.class, support.type.object",
                     "settings": {
                         "foreground": "#926031",
                         "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        //"foreground": "#f14a66"
+                        "foreground": "#357cce"
                     }
                 },
             ]
