@@ -2,3 +2,4 @@
 .DS_Store
 *.lock
 **/meta.json
+vsicons.settings.json

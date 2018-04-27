@@ -38,6 +38,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.NoBrowser": true,
     "liveServer.settings.wait": 1000,
+    "markdown.preview.fontFamily": "Nunito",
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "prettier.printWidth": 100,
     "python.linting.flake8Enabled": true,
@@ -117,4 +118,10 @@
             ]
         },
     },
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "javascriptreact",
+        "vue",
+    ],
 }
