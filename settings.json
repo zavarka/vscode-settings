@@ -12,6 +12,13 @@
     "editor.multiCursorModifier": "alt",
     "editor.renderWhitespace": "none",
     "editor.smoothScrolling": true,
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "javascriptreact",
+        "vue",
+    ],
+    "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
@@ -41,11 +48,14 @@
     "markdown.preview.fontFamily": "Nunito",
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "prettier.printWidth": 100,
+    "prettier.trailingComma": "all",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [
         "--disable=C0111, C0103, R0903"
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
+    "sync.gist": "03020050ff2d514d64ea3328f54cd962",
+    "sync.lastUpload": "2018-04-30T06:43:09.102Z",
     "terminal.integrated.lineHeight": 1.1,
     "terminal.integrated.rightClickBehavior": "copyPaste",
     "window.zoomLevel": 0,
@@ -78,13 +88,13 @@
                     }
                 },
                 {
-                    "scope": "entity.name.function, meta.object-literal.key, support.function, support.variable",
+                    "scope": "variable.function, entity.name.function, meta.object-literal.key, support.function, support.variable",
                     "settings": {
                         "foreground": "#26718f"
                     }
                 },
                 {
-                    "scope": "entity.name.function, support.function",
+                    "scope": "variable.function, entity.name.function, support.function",
                     "settings": {
                         "fontStyle": "italic"
                     }
@@ -111,19 +121,12 @@
                 {
                     "scope": "keyword.control",
                     "settings": {
-                        //"foreground": "#f14a66"
                         "foreground": "#3596ce",
-                        //"foreground": "#439475",
                         "fontStyle": "italic"
                     }
                 },
             ]
         },
     },
-    "eslint.validate": [
-        "html",
-        "javascript",
-        "javascriptreact",
-        "vue",
-    ],
+
 }
