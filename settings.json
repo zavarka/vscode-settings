@@ -13,7 +13,6 @@
     "editor.renderWhitespace": "none",
     "editor.smoothScrolling": true,
     "eslint.validate": [
-        "html",
         "javascript",
         "javascriptreact",
         "vue",
@@ -47,15 +46,16 @@
     "liveServer.settings.wait": 1000,
     "markdown.preview.fontFamily": "Nunito",
     "material-icon-theme.activeIconPack": "angular_ngrx",
-    "prettier.printWidth": 100,
-    "prettier.trailingComma": "all",
+    "prettier.eslintIntegration": true,
+    "prettier.printWidth": 120,
+    "prettier.trailingComma": "es5",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [
         "--disable=C0111, C0103, R0903"
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-04-30T06:54:20.939Z",
+    "sync.lastUpload": "2018-05-02T03:01:48.060Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -87,7 +87,7 @@
                 {
                     "scope": "variable.other.object, variable.other.readwrite, variable.other.property, variable.other.object.property",
                     "settings": {
-                        "foreground": "#504a72"
+                        "foreground": "#000000"
                     }
                 },
                 {
@@ -98,7 +98,7 @@
                     }
                 },
                 {
-                    "scope": "variable.function, entity.name.function, meta.object-literal.key, support.function, support.variable",
+                    "scope": "variable.function, entity.name.function, meta.object-literal.key, meta.property.object, support.function, support.variable",
                     "settings": {
                         "foreground": "#26718f"
                     }
@@ -123,16 +123,33 @@
                     }
                 },
                 {
-                    "scope": "support.class, support.type.object",
+                    "scope": "support.class",
                     "settings": {
-                        "foreground": "#926031",
+                        "foreground": "#c58f5b",
                     }
                 },
                 {
-                    "scope": "keyword.control",
+                    "scope": "string.quoted",
                     "settings": {
-                        "foreground": "#3596ce",
-                        "fontStyle": "italic"
+                        "foreground": "#a07ea5"
+                    }
+                },
+                {
+                    "scope": "string.unquoted, support.type",
+                    "settings": {
+                        "foreground": "#724a6d"
+                    }
+                },
+                {
+                    "scope": "punctuation.separator",
+                    "settings": {
+                        "foreground": "#000000"
+                    }
+                },
+                {
+                    "scope": "constant.language.boolean, constant.language.json",
+                    "settings": {
+                        "foreground": "#D33682"
                     }
                 },
             ]
