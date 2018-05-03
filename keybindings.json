@@ -20,5 +20,9 @@
         "key": "cmd+l",
         "command": "workbench.action.terminal.clear",
         "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]

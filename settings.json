@@ -46,6 +46,7 @@
     "liveServer.settings.wait": 1000,
     "markdown.preview.fontFamily": "Nunito",
     "material-icon-theme.activeIconPack": "angular_ngrx",
+    "npm.enableScriptExplorer": true,
     "prettier.eslintIntegration": true,
     "prettier.printWidth": 120,
     "prettier.trailingComma": "es5",
@@ -55,7 +56,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-02T03:01:48.060Z",
+    "sync.lastUpload": "2018-05-03T21:05:55.386Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -77,9 +78,6 @@
     "zenMode.hideTabs": false,
     "[html]": {
         "editor.tabSize": 2
-    },
-    "[javascript]": {
-        "editor.tabSize": 4,
     },
     "editor.tokenColorCustomizations": {
         "[Solarized Light]": {
@@ -155,5 +153,4 @@
             ]
         },
     },
-
 }
