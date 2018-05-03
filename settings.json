@@ -12,6 +12,7 @@
     "editor.multiCursorModifier": "alt",
     "editor.renderWhitespace": "none",
     "editor.smoothScrolling": true,
+    "editor.wordWrap": "on",
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -19,6 +20,9 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.js.map": "json"
+    },
     "files.autoSave": "off",
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
@@ -56,7 +60,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-03T21:05:55.386Z",
+    "sync.lastUpload": "2018-05-03T22:17:42.924Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -77,7 +81,8 @@
     "workbench.startupEditor": "none",
     "zenMode.hideTabs": false,
     "[html]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.renderIndentGuides": false
     },
     "editor.tokenColorCustomizations": {
         "[Solarized Light]": {
