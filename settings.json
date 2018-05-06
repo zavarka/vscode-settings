@@ -2,7 +2,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
-    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', Menlo, Monaco, monospace",
+    "editor.fontFamily": "'Fira Code', 'Source Code Pro', Consolas, 'Courier New', Menlo, Monaco, monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.minimap.enabled": true,
@@ -20,6 +20,7 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
     "files.associations": {
         "*.js.map": "json"
     },
@@ -48,10 +49,11 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.NoBrowser": true,
     "liveServer.settings.wait": 1000,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
     "markdown.preview.fontFamily": "Nunito",
-    "material-icon-theme.activeIconPack": "angular_ngrx",
     "prettier.eslintIntegration": true,
     "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
     "prettier.trailingComma": "es5",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintArgs": [
@@ -59,7 +61,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-03T23:43:51.983Z",
+    "sync.lastUpload": "2018-05-06T01:36:36.511Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -70,6 +72,7 @@
     "sync.askGistName": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
+    "terminal.integrated.fontFamily": "Source Code Pro",
     "terminal.integrated.lineHeight": 1.1,
     "terminal.integrated.rightClickBehavior": "copyPaste",
     "window.zoomLevel": 0,
@@ -80,8 +83,8 @@
     "workbench.startupEditor": "none",
     "zenMode.hideTabs": false,
     "[html]": {
+        "editor.renderIndentGuides": false,
         "editor.tabSize": 2,
-        "editor.renderIndentGuides": false
     },
     "editor.tokenColorCustomizations": {
         "[Solarized Light]": {
@@ -131,7 +134,7 @@
                     }
                 },
                 {
-                    "scope": "string.quoted",
+                    "scope": "string.quoted, string.interpolated",
                     "settings": {
                         "foreground": "#a07ea5"
                     }
@@ -152,6 +155,12 @@
                     "scope": "constant.language.boolean, constant.language.json",
                     "settings": {
                         "foreground": "#D33682"
+                    }
+                },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "foreground": "#268BD2"
                     }
                 },
             ]
