@@ -24,5 +24,13 @@
     {
         "key": "shift+cmd+i",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.reopenClosedEditor"
     }
 ]
