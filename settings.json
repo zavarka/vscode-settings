@@ -20,7 +20,6 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
     "files.associations": {
         "*.js.map": "json"
     },
@@ -61,7 +60,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-07T09:30:34.572Z",
+    "sync.lastUpload": "2018-05-07T18:58:47.891Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -72,7 +71,6 @@
     "sync.askGistName": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
-    "terminal.integrated.fontFamily": "Source Code Pro",
     "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.rightClickBehavior": "copyPaste",
     "window.zoomLevel": 0,
@@ -94,6 +92,7 @@
                     #000000
                     #1C2321
                     #216869
+                    #26547C
                     #268BD2
                     #313715
                     #504a72
@@ -104,10 +103,12 @@
                     #93A1A1
                     #990099
                     #9F7E69
-                    #a07ea5
+                    #A07EA5
+                    #B58900
                     #C45BAA
                     #D33682
                     #ED6A5A
+                    #F49D6E
                     #F7B05B
                 */
                 {
@@ -147,15 +148,25 @@
                         "variable.function",
                     ],
                     "settings": {
-                        "foreground": "#216869",
+                        "foreground": "#26547C",
                         "fontStyle": "italic bold"
                     }
                 },
                 {
-                    "scope": "entity.name.type",
+                    "scope": [
+                        "entity.name.type",
+                    ],
                     "settings": {
                         "foreground": "#ED6A5A",
                         "fontStyle": "italic bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.other.attribute-name",
+                    ],
+                    "settings": {
+                        "foreground": "#F49D6E",
                     }
                 },
                 {
@@ -180,7 +191,7 @@
                         "support.class",
                         "support.constant",
                         "constant.other.character-class",
-                        "support.variable.object"
+                        "support.variable.object",
                     ],
                     "settings": {
                         "foreground": "#9F7E69",
@@ -199,6 +210,9 @@
                 {
                     "scope": [
                         "meta.object-literal.key",
+                        "punctuation.definition.tag.begin",
+                        "punctuation.definition.tag.end",
+                        "punctuation.definition.tag",
                         "string.unquoted",
                         "support.type",
                     ],
@@ -209,7 +223,7 @@
                 {
                     "scope": [
                         "constant.language.boolean",
-                        "constant.language.json"
+                        "constant.language.json",
                     ],
                     "settings": {
                         "foreground": "#D33682"
