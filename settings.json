@@ -2,7 +2,11 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
-    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', Menlo, Monaco, monospace",
+    // "editor.fontFamily": "DejaVu Sans Code",
+    "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "Hasklig",
+    // "editor.fontFamily": "Source Code Pro",
+    // "editor.fontFamily": "Iosevka",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.minimap.enabled": true,
@@ -60,7 +64,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-07T18:58:47.891Z",
+    "sync.lastUpload": "2018-05-08T01:43:17.379Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -104,6 +108,7 @@
                     #990099
                     #9F7E69
                     #A07EA5
+                    #A13C01
                     #B58900
                     #C45BAA
                     #D33682
@@ -136,6 +141,7 @@
                     "scope": [
                         "meta.object-literal.key",
                         "meta.property.object",
+                        "entity.name.type",
                     ],
                     "settings": {
                         "foreground": "#C45BAA"
@@ -148,17 +154,8 @@
                         "variable.function",
                     ],
                     "settings": {
-                        "foreground": "#26547C",
-                        "fontStyle": "italic bold"
-                    }
-                },
-                {
-                    "scope": [
-                        "entity.name.type",
-                    ],
-                    "settings": {
                         "foreground": "#ED6A5A",
-                        "fontStyle": "italic bold"
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -194,7 +191,7 @@
                         "support.variable.object",
                     ],
                     "settings": {
-                        "foreground": "#9F7E69",
+                        "foreground": "#a13c01",
                     }
                 },
                 {
