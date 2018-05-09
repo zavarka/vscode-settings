@@ -1,19 +1,27 @@
 {
+    "debug.openDebug": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     // "editor.fontFamily": "DejaVu Sans Code",
-    "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "Fira Code",
     // "editor.fontFamily": "Hasklig",
+    "editor.fontFamily": "Iosevka",
     // "editor.fontFamily": "Source Code Pro",
-    // "editor.fontFamily": "Iosevka",
     "editor.fontLigatures": true,
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 120,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "mouseover",
     "editor.multiCursorModifier": "alt",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "none",
     "editor.smoothScrolling": true,
     "editor.wordWrap": "on",
@@ -24,6 +32,7 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
     "files.associations": {
         "*.js.map": "json"
     },
@@ -33,13 +42,7 @@
     "git.confirmSync": false,
     "git.decorations.enabled": true,
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
+        "suppressResultsExplorerNotice": true,
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.codeLens.authors.enabled": false,
@@ -64,7 +67,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-08T01:43:17.379Z",
+    "sync.lastUpload": "2018-05-09T08:56:47.340Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -75,6 +78,7 @@
     "sync.askGistName": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.rightClickBehavior": "copyPaste",
     "window.zoomLevel": 0,
@@ -88,8 +92,17 @@
         "editor.renderIndentGuides": false,
         "editor.tabSize": 2,
     },
+    "workbench.colorCustomizations": {
+        "[Solarized Light]": {
+            "editor.selectionHighlightBackground": "#f1ead4",
+        }
+    },
     "editor.tokenColorCustomizations": {
         "[Solarized Light]": {
+            "functions": {
+                "foreground": "#990099",
+                "fontStyle": "italic"
+            },
             "textMateRules": [
                 /*
                     color palette:
@@ -126,7 +139,7 @@
                         "variable.parameter",
                     ],
                     "settings": {
-                        "foreground": "#000000",
+                        "foreground": "#2f2f2f",
                     }
                 },
                 {
@@ -139,25 +152,24 @@
                 },
                 {
                     "scope": [
-                        "meta.object-literal.key",
                         "meta.property.object",
                         "entity.name.type",
                     ],
                     "settings": {
-                        "foreground": "#C45BAA"
+                        "foreground": "#D33682",
                     }
                 },
-                {
-                    "scope": [
-                        "entity.name.function",
-                        "support.function",
-                        "variable.function",
-                    ],
-                    "settings": {
-                        "foreground": "#ED6A5A",
-                        "fontStyle": ""
-                    }
-                },
+                // {
+                //     "scope": [
+                //         "entity.name.function",
+                //         "support.function",
+                //         "variable.function",
+                //     ],
+                //     "settings": {
+                //         "foreground": "#990099",
+                //         "fontStyle": "italic"
+                //     }
+                // },
                 {
                     "scope": [
                         "entity.other.attribute-name",
@@ -168,6 +180,7 @@
                 },
                 {
                     "scope": [
+                        "punctuation.accessor",
                         "variable.language.this",
                     ],
                     "settings": {
@@ -176,7 +189,6 @@
                 },
                 {
                     "scope": [
-                        "constant.character.escape",
                         "punctuation.definition.template-expression",
                     ],
                     "settings": {
@@ -207,9 +219,6 @@
                 {
                     "scope": [
                         "meta.object-literal.key",
-                        "punctuation.definition.tag.begin",
-                        "punctuation.definition.tag.end",
-                        "punctuation.definition.tag",
                         "string.unquoted",
                         "support.type",
                     ],
@@ -227,7 +236,12 @@
                     }
                 },
                 {
-                    "scope": "keyword.control",
+                    "scope": [
+                        "keyword.control",
+                        "punctuation.definition.tag.begin",
+                        "punctuation.definition.tag.end",
+                        "punctuation.definition.tag",
+                    ],
                     "settings": {
                         "foreground": "#268BD2"
                     }
@@ -253,7 +267,17 @@
                         "fontStyle": "italic",
                     }
                 },
-            ]
+                {
+                    "scope": [
+                        "storage.type",
+                        "storage.modifier",
+                    ],
+                    "settings": {
+                        "foreground": "#e0bf00",
+                        "fontStyle": "",
+                    }
+                },
+            ],
         },
     },
 }
