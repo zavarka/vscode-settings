@@ -51,14 +51,15 @@
     "gitlens.gitExplorer.enabled": true,
     "gitlens.hovers.enabled": false,
     "gitlens.keymap": "chorded",
+    "html.format.endWithNewline": true,
     "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.NoBrowser": true,
     "liveServer.settings.wait": 1000,
-    "markdown.extension.preview.autoShowPreviewToSide": true,
     "markdown.preview.fontFamily": "Nunito",
     "prettier.eslintIntegration": true,
     "prettier.printWidth": 120,
+    "prettier.stylelintIntegration": true,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "es5",
     "python.linting.flake8Enabled": true,
@@ -67,7 +68,7 @@
     ],
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
     "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-    "sync.lastUpload": "2018-05-09T08:56:47.340Z",
+    "sync.lastUpload": "2018-05-13T04:38:17.320Z",
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.lastDownload": "",
@@ -126,7 +127,10 @@
                     #C45BAA
                     #D33682
                     #ED6A5A
+                    #E0BF00
+                    #EBC802
                     #F49D6E
+                    #F4BF75
                     #F7B05B
                 */
                 {
@@ -159,17 +163,6 @@
                         "foreground": "#D33682",
                     }
                 },
-                // {
-                //     "scope": [
-                //         "entity.name.function",
-                //         "support.function",
-                //         "variable.function",
-                //     ],
-                //     "settings": {
-                //         "foreground": "#990099",
-                //         "fontStyle": "italic"
-                //     }
-                // },
                 {
                     "scope": [
                         "entity.other.attribute-name",
@@ -199,11 +192,27 @@
                     "scope": [
                         "support.class",
                         "support.constant",
-                        "constant.other.character-class",
                         "support.variable.object",
+                        "variable.other.constant",
                     ],
                     "settings": {
                         "foreground": "#a13c01",
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.other.character-class",
+                    ],
+                    "settings": {
+                        "foreground": "#216869",
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.group",
+                    ],
+                    "settings": {
+                        "foreground": "#93A1A1",
                     }
                 },
                 {
@@ -273,7 +282,7 @@
                         "storage.modifier",
                     ],
                     "settings": {
-                        "foreground": "#e0bf00",
+                        "foreground": "#EBC802",
                         "fontStyle": "",
                     }
                 },
