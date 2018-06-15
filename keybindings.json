@@ -57,5 +57,9 @@
     "key": "shift+enter",
     "command": "-colonize.endline",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+cmd+f",
+    "command": "filesExplorer.findInFolder"
   }
 ]

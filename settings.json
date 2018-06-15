@@ -38,7 +38,7 @@
   ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 20,
   "files.associations": {
     "*.js.map": "json",
     ".stylelintrc": "json",
@@ -79,7 +79,7 @@
   ],
   "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
   "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-  "sync.lastUpload": "2018-06-07T17:27:09.761Z",
+  "sync.lastUpload": "2018-06-15T19:40:37.564Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
@@ -97,15 +97,14 @@
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showTabs": true,
-  "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "none",
   "zenMode.hideTabs": false,
   "workbench.colorCustomizations": {
     "[Solarized Light]": {
       "editorIndentGuide.background": "#f1ead4",
-      "editorIndentGuide.activeBackground": "#FD9E92", //"#8ACDEA",
-      "editor.selectionHighlightBackground": "#f1ead4",
-    }
+      "editorIndentGuide.activeBackground": "#FD9E92",
+      "editor.selectionHighlightBackground": "#f1ead4"
+    },
   },
   "editor.tokenColorCustomizations": {
     "[Solarized Light]": {
