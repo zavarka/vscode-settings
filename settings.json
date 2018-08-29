@@ -18,6 +18,7 @@
   "bracketPairColorizer.rulerPosition": "Full",
   "bracketPairColorizer.showBracketsInGutter": true,
   "bracketPairColorizer.showBracketsInRuler": true,
+  "breadcrumbs.enabled": true,
   "color-highlight.markRuler": false,
   "debug.openDebug": "openOnSessionStart",
   "debug.openExplorerOnEnd": true,
@@ -28,7 +29,7 @@
   // "editor.fontFamily": "DejaVu Sans Code",
   // "editor.fontFamily": "Fira Code",
   // "editor.fontFamily": "Hasklig",
-  "editor.fontFamily": "Iosevka",
+  "editor.fontFamily": "Iosevka SS03",
   // "editor.fontFamily": "Source Code Pro",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
@@ -37,13 +38,13 @@
   "editor.minimap.enabled": true,
   "editor.minimap.maxColumn": 120,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "alt",
   "editor.overviewRulerBorder": false,
   "editor.quickSuggestions": {
     "other": true,
-    "comments": true,
-    "strings": true
+    "comments": false,
+    "strings": false
   },
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "all",
@@ -52,7 +53,8 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
-    "vue-html": "html"
+    "vue-html": "html",
+    "ejs": "html",
   },
   "eslint.enable": false,
   "eslint.validate": [
@@ -66,7 +68,8 @@
   "files.associations": {
     "*.js.map": "json",
     ".stylelintrc": "json",
-    "settings*.json": "jsonc"
+    "settings*.json": "jsonc",
+    "ace": "javascript",
   },
   "files.autoSave": "off",
   "files.trimTrailingWhitespace": true,
@@ -104,13 +107,9 @@
   ],
   "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
   "sync.gist": "03020050ff2d514d64ea3328f54cd962",
-  "sync.lastUpload": "2018-06-16T00:27:38.015Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
-  "sync.lastDownload": "",
   "sync.forceDownload": false,
-  "sync.host": "",
-  "sync.pathPrefix": "",
   "sync.quietSync": false,
   "sync.askGistName": false,
   "sync.removeExtensions": true,
@@ -131,6 +130,7 @@
       "editor.selectionHighlightBackground": "#f1ead4"
     },
   },
+  "workbench.settings.settingsSearchTocBehavior": "filter",
   "editor.tokenColorCustomizations": {
     "[Solarized Light]": {
       "functions": {
