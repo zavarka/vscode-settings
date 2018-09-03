@@ -32,7 +32,7 @@
   "editor.fontFamily": "Iosevka SS03",
   // "editor.fontFamily": "Source Code Pro",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.hideCursorInOverviewRuler": true,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": true,
@@ -114,7 +114,7 @@
   "sync.askGistName": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.rightClickBehavior": "copyPaste",
   "window.zoomLevel": 0,
@@ -122,7 +122,6 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showTabs": true,
   "workbench.startupEditor": "none",
-  "zenMode.hideTabs": false,
   "workbench.colorCustomizations": {
     "[Solarized Light]": {
       "editorIndentGuide.background": "#f1ead4",
@@ -337,5 +336,11 @@
         },
       ],
     },
+  },
+  "[plaintext]": {
+    "editor.quickSuggestions": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.autoClosingBrackets": false,
+    "editor.suggestOnTriggerCharacters": false,
   },
 }

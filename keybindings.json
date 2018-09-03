@@ -61,5 +61,13 @@
   {
     "key": "shift+alt+cmd+f",
     "command": "filesExplorer.findInFolder"
+  },
+  {
+    "key": "alt+cmd+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "alt+cmd+-",
+    "command": "editor.action.fontZoomOut"
   }
 ]
