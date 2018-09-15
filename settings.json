@@ -340,7 +340,7 @@
   "[plaintext]": {
     "editor.quickSuggestions": false,
     "editor.wordBasedSuggestions": false,
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
     "editor.suggestOnTriggerCharacters": false,
   },
 }
