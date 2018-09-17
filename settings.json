@@ -193,6 +193,14 @@
         },
         {
           "scope": [
+             "keyword.other.debugger.js",
+          ],
+          "settings": {
+            "foreground": "#ff0000"
+          }
+        },
+        {
+          "scope": [
             "meta.property.object",
             "entity.name.type",
           ],
