@@ -24,6 +24,7 @@
   "debug.openExplorerOnEnd": true,
   "debug.toolBarLocation": "docked",
   "diffEditor.ignoreTrimWhitespace": true,
+  "edge.format.enable": true,
   "editor.detectIndentation": false,
   "editor.dragAndDrop": false,
   // "editor.fontFamily": "DejaVu Sans Code",
@@ -55,6 +56,7 @@
   "emmet.includeLanguages": {
     "vue-html": "html",
     "ejs": "html",
+    "edge": "html",
   },
   "eslint.enable": false,
   "eslint.validate": [
@@ -85,7 +87,6 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.gitExplorer.enabled": true,
-  "gitlens.historyExplorer.enabled": true,
   "gitlens.historyExplorer.location": "scm",
   "gitlens.hovers.enabled": false,
   "gitlens.keymap": "chorded",
