@@ -69,5 +69,13 @@
   {
     "key": "alt+cmd+-",
     "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "outline.focus"
+  },
+  {
+    "key": "cmd+k cmd+e",
+    "command": "workbench.files.action.focusFilesExplorer"
   }
 ]
