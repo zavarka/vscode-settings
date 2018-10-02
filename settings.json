@@ -117,7 +117,12 @@
   "sync.syncExtensions": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.rightClickBehavior": "copyPaste",  "todo-tree.defaultHighlight": {
+    "foreground": "#ED6A5A",
+    "background": "black",
+    "type": "text"
+  },
+  "todo-tree.regex": "((//|#|<!--|\\{\\{--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.revealIfOpen": true,
