@@ -109,7 +109,7 @@
   "python.linting.pylintArgs": [
     "--disable=C0111, C0103, R0903"
   ],
-  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin",
+  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
   "sync.gist": "03020050ff2d514d64ea3328f54cd962",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
