@@ -72,10 +72,11 @@
   "explorer.openEditors.visible": 20,
   "extensions.ignoreRecommendations": false,
   "files.associations": {
-    "*.js.map": "json",
+    ".sequelizerc": "javascript",
     ".stylelintrc": "json",
-    "settings*.json": "jsonc",
+    "*.js.map": "json",
     "ace": "javascript",
+    "settings*.json": "jsonc",
   },
   "files.autoSave": "off",
   "files.trimTrailingWhitespace": true,
@@ -356,4 +357,8 @@
     "editor.autoClosingBrackets": "never",
     "editor.suggestOnTriggerCharacters": false,
   },
+  "gitlens.views.repositories.enabled": true,
+  "gitlens.views.fileHistory.location": "scm",
+  "gitlens.views.lineHistory.location": "scm",
+  "problems.decorations.enabled": false,
 }
