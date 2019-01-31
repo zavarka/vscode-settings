@@ -111,6 +111,7 @@
   "prettier.htmlWhitespaceSensitivity": "ignore",
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "es5",
   "python.linting.flake8Enabled": true,
