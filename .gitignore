@@ -5,3 +5,4 @@
 vsicons.settings.json
 syncLocalSettings.json
 workspaceStorage/*
+globalStorage/state.*
