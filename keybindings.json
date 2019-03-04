@@ -31,26 +31,6 @@
     "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
   },
   {
-    "key": "cmd+;",
-    "command": "colonize.newline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+enter",
-    "command": "-colonize.newline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+;",
-    "command": "colonize.endline",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+enter",
-    "command": "-colonize.endline",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+alt+cmd+f",
     "command": "filesExplorer.findInFolder"
   },
