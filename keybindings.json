@@ -5,14 +5,6 @@
     "command": "editor.action.toggleRenderWhitespace",
   },
   {
-    "key": "shift+alt+b",
-    "command": "HookyQR.beautifyFile"
-  },
-  {
-    "key": "shift+alt+b",
-    "command": "HookyQR.beautify"
-  },
-  {
     "key": "shift+alt+c",
     "command": "workbench.debug.panel.action.clearReplAction"
   },
@@ -77,5 +69,25 @@
   {
     "key": "cmd+k cmd+e",
     "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
   }
 ]

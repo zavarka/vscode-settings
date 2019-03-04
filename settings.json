@@ -135,9 +135,11 @@
   "workbench.colorTheme": "Solarized Rome",
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "vscode-icons",
   "workbench.panel.defaultLocation": "right",
-  "workbench.startupEditor": "none",
   "workbench.settings.settingsSearchTocBehavior": "filter",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "none",
   "[plaintext]": {
     "editor.quickSuggestions": false,
     "editor.wordBasedSuggestions": false,
