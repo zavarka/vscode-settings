@@ -10,7 +10,7 @@
       "#B58900",
       "#00A6ED",
       "#E0BF00",
-      "#41b883",
+      "#41b883"
     ],
     "Red"
   ],
@@ -19,9 +19,15 @@
   "bracketPairColorizer.showBracketsInRuler": true,
   "breadcrumbs.enabled": true,
   "color-highlight.markRuler": false,
+  "css.lint.duplicateProperties": "warning",
+  "debug.console.fontSize": 14,
   "debug.openDebug": "openOnSessionStart",
   "debug.openExplorerOnEnd": true,
   "debug.toolBarLocation": "docked",
+  "debug.console.fontFamily": "Iosevka SS03",
+  "vsicons.associations.files": [
+    { "icon": "js", "extensions": ["snap"], "format": "svg" }
+  ],
   "diffEditor.ignoreTrimWhitespace": true,
   "edge.format.enable": true,
   "editor.detectIndentation": false,
@@ -39,7 +45,7 @@
   "editor.minimap.maxColumn": 120,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
-  "editor.multiCursorModifier": "alt",
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.overviewRulerBorder": false,
   "editor.quickSuggestions": {
     "other": true,
@@ -58,15 +64,11 @@
   "emmet.includeLanguages": {
     "vue-html": "html",
     "ejs": "html",
-    "edge": "html",
+    "edge": "html"
   },
   "eslint.enable": false,
   "eslint.packageManager": "yarn",
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue",
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 20,
@@ -77,7 +79,7 @@
     ".stylelintrc": "json",
     "*.js.map": "json",
     "ace": "javascript",
-    "settings*.json": "jsonc",
+    "settings*.json": "jsonc"
   },
   "files.autoSave": "off",
   "files.trimTrailingWhitespace": true,
@@ -103,7 +105,8 @@
   "html.format.wrapLineLength": 0,
   "htmltagwrap.tag": "div",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.CustomBrowser":  "chrome",
+  "less.lint.duplicateProperties": "warning",
+  "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.NoBrowser": true,
   "liveServer.settings.wait": 1000,
@@ -116,10 +119,12 @@
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "es5",
   "python.linting.flake8Enabled": true,
-  "python.linting.pylintArgs": [
-    "--disable=C0111, C0103, R0903"
-  ],
+  "python.linting.pylintArgs": ["--disable=C0111, C0103, R0903"],
   "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.hexColorLength": "warning",
+  "scss.lint.idSelector": "error",
+  "scss.lint.zeroUnits": "warning",
   "sync.gist": "03020050ff2d514d64ea3328f54cd962",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
@@ -144,6 +149,17 @@
     "editor.quickSuggestions": false,
     "editor.wordBasedSuggestions": false,
     "editor.autoClosingBrackets": "never",
-    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggestOnTriggerCharacters": false
   },
+  "editor.tokenColorCustomizations": {
+    // "textMateRules": [
+    // {
+    //   "scope": "punctuation.section.embedded.js",
+    //   "settings": {
+    //     "fontStyle": "",
+    //     "foreground": "#C5D86D"
+    //   }
+    // },
+    // ],
+  }
 }
