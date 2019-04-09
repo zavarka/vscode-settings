@@ -26,11 +26,6 @@
     "command": "-workbench.action.reopenClosedEditor"
   },
   {
-    "key": "cmd+enter",
-    "command": "-markdown.extension.onCtrlEnterKey",
-    "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
-  },
-  {
     "key": "shift+alt+cmd+f",
     "command": "filesExplorer.findInFolder"
   },
@@ -84,4 +79,9 @@
     "key": "cmd+;",
     "command": "editor.action.showSnippets"
   },
+  {
+    "key": "cmd+k cmd+t",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  }
 ]
