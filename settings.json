@@ -20,7 +20,7 @@
   "breadcrumbs.enabled": true,
   "color-highlight.markRuler": false,
   "css.lint.duplicateProperties": "warning",
-  "debug.console.fontSize": 12,
+  "debug.console.fontSize": 13,
   "debug.openDebug": "openOnSessionStart",
   "debug.openExplorerOnEnd": true,
   "debug.toolBarLocation": "docked",
@@ -145,6 +145,18 @@
       "format": "svg"
     }
   ],
+  "vsicons.associations.folders": [
+    {
+      "icon": "db",
+      "extensions": ["migrations", "seeders"],
+      "format": "svg"
+    },
+    {
+      "icon": "graphql",
+      "extensions": ["schema"],
+      "format": "svg"
+    }
+  ],
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Solarized Rome",
   "workbench.editor.revealIfOpen": true,
@@ -161,6 +173,9 @@
     "editor.suggestOnTriggerCharacters": false
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
