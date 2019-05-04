@@ -77,6 +77,7 @@
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     "*.js.map": "json",
+    "*.plist": "xml",
     "*.prisma": "graphql",
     "ace": "javascript",
     "settings*.json": "jsonc"
@@ -155,6 +156,16 @@
       "icon": "graphql",
       "extensions": ["schema"],
       "format": "svg"
+    },
+    {
+      "icon": "redux",
+      "extensions": ["store"],
+      "format": "svg",
+    },
+    {
+      "icon": "template",
+      "extensions": ["containers"],
+      "format": "svg",
     }
   ],
   "window.zoomLevel": 0,
@@ -162,10 +173,12 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "vscode-icons",
+  "workbench.list.keyboardNavigation": "filter",
   "workbench.panel.defaultLocation": "right",
   "workbench.settings.settingsSearchTocBehavior": "filter",
   "workbench.settings.useSplitJSON": true,
   "workbench.startupEditor": "none",
+  "workbench.statusBar.feedback.visible": false,
   "[plaintext]": {
     "editor.quickSuggestions": false,
     "editor.wordBasedSuggestions": false,
