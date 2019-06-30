@@ -83,5 +83,15 @@
     "key": "cmd+k cmd+t",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "-extension.convertSelection",
+    "when": "editorTextFocus"
   }
 ]

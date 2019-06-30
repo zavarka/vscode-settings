@@ -36,10 +36,11 @@
   // "editor.fontFamily": "Source Code Pro",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
+  "editor.formatOnSave": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": true,
-  "editor.minimap.maxColumn": 120,
+  "editor.minimap.maxColumn": 100,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "ctrlCmd",
@@ -52,6 +53,7 @@
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
   "editor.showFoldingControls": "always",
   "editor.smoothScrolling": true,
   "editor.suggest.localityBonus": true,
@@ -66,21 +68,29 @@
   },
   "eslint.enable": false,
   "eslint.packageManager": "yarn",
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true },
+    "vue"
+  ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 20,
   "extensions.ignoreRecommendations": false,
   "files.associations": {
+    ".eslintrc": "jsonc",
     ".graphqlconfig": "json",
     ".htmlhintrc": "json",
+    ".prettierrc": "jsonc",
     ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
+    ".stylelintrc": "jsonc",
     "*.js.map": "json",
     "*.plist": "xml",
     "*.prisma": "graphql",
     "ace": "javascript",
-    "settings*.json": "jsonc"
+    "settings.json": "jsonc"
   },
   "files.autoSave": "off",
   "files.trimTrailingWhitespace": true,
@@ -113,9 +123,11 @@
   "liveServer.settings.NoBrowser": true,
   "liveServer.settings.wait": 1000,
   "markdown.preview.fontFamily": "Nunito",
+  "merge-conflict.diffViewPosition": "Below",
   "npm-intellisense.importLinebreak": "",
   "prettier.eslintIntegration": true,
-  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.printWidth": 80,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.stylelintIntegration": true,
@@ -139,13 +151,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.rightClickBehavior": "copyPaste",
-  "vsicons.associations.files": [
-    {
-      "icon": "js",
-      "extensions": ["snap"],
-      "format": "svg"
-    }
-  ],
   "vsicons.associations.folders": [
     {
       "icon": "db",
@@ -160,14 +165,15 @@
     {
       "icon": "redux",
       "extensions": ["store"],
-      "format": "svg",
+      "format": "svg"
     },
     {
       "icon": "template",
       "extensions": ["containers"],
-      "format": "svg",
+      "format": "svg"
     }
   ],
+  "vsicons.projectDetection.disableDetect": true,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Solarized Rome",
   "workbench.editor.revealIfOpen": true,
@@ -179,6 +185,9 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[plaintext]": {
     "editor.quickSuggestions": false,
     "editor.wordBasedSuggestions": false,
@@ -197,15 +206,120 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#9d12d41c"
+  },
   "editor.tokenColorCustomizations": {
-    // "textMateRules": [
-    // {
-    //   "scope": "punctuation.section.embedded.js",
-    //   "settings": {
-    //     "fontStyle": "",
-    //     "foreground": "#C5D86D"
-    //   }
-    // },
-    // ],
-  }
+    "textMateRules": [
+      // {
+      //   "scope": ["entity.other.attribute-name.pseudo-class"],
+      //   "settings": {
+      //     "foreground": "#93A1A1"
+      //   }
+      // },
+      // {
+      //   "scope": ["entity.other.attribute-name.pseudo-element"],
+      //   "settings": {
+      //     "foreground": "#81d2c7"
+      //   }
+      // },
+      // {
+      //   "scope": ["invalid.deprecated", "keyword.other.important"],
+      //   "settings": {
+      //     "foreground": "#ff5666"
+      //   }
+      // },
+      // {
+      //   "scope": ["entity.other.attribute-name.class"],
+      //   "settings": {
+      //     "foreground": "#d33682"
+      //   }
+      // },
+      // {
+      //   "scope": ["punctuation.definition.interpolation"],
+      //   "settings": {
+      //     "foreground": "#f7b05b"
+      //   }
+      // },
+      // {
+      //   "scope": ["support.type.map.key"],
+      //   "settings": {
+      //     "foreground": "#874191"
+      //   }
+      // },
+      {
+        "scope": ["entity.other.inherited-class"],
+        "settings": {
+          "foreground": "#42797a"
+        }
+      }
+      // {
+      //   "scope": ["variable.parameter.url"],
+      //   "settings": {
+      //     "fontStyle": "",
+      //   }
+      // },
+      // {
+      //   "scope": ["meta.decorator.ts"],
+      //   "settings": {
+      //     "foreground": "#2e63a8",
+      //     // "fontStyle": "italic"
+      //   }
+      // }
+      // {
+      //   "scope": ["variable.other.readwrite.shorthandpropertyname"],
+      //   "settings": {
+      //     "foreground": "#2f2f2f"
+      //   }
+      // }
+      // {
+      //   "scope": [
+      //     "keyword.control",
+      //   ],
+      //   "settings": {
+      //     "foreground": "#35CE8D"
+      //     //"#81d2c7"
+      //    // "#998fc7" // "#f18f01" //"#FF5666"
+      //   }
+      // },
+    ]
+  },
+  // "typescript.tsdk": "/Users/roman/.nvm/versions/node/v10.14.1/lib/node_modules/typescript/lib",
+  "quokka.showOutputOnStart": false,
+  "quokka.lightTheme.log.decorationAttachmentRenderOptions": {
+    "border": "solid",
+    "borderColor": null,
+    "fontStyle": null,
+    "fontWeight": null,
+    "textDecoration": null,
+    "color": "#ddd6c1",
+    "backgroundColor": "#6c6c6c",
+    "margin": "1.2em",
+    "width": null,
+    "height": null
+  },
+  "css.lint.boxModel": "warning",
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ]
 }
