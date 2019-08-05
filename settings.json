@@ -230,72 +230,7 @@
         "settings": {
           "foreground": "#81d2c7" // "#93A1A1"
         }
-      },
-      // {
-      //   "scope": ["entity.other.attribute-name.pseudo-element"],
-      //   "settings": {
-      //     "foreground": "#81d2c7"
-      //   }
-      // },
-      // {
-      //   "scope": ["invalid.deprecated", "keyword.other.important"],
-      //   "settings": {
-      //     "foreground": "#ff5666"
-      //   }
-      // },
-      // {
-      //   "scope": ["entity.other.attribute-name.class"],
-      //   "settings": {
-      //     "foreground": "#d33682"
-      //   }
-      // },
-      // {
-      //   "scope": ["punctuation.definition.interpolation"],
-      //   "settings": {
-      //     "foreground": "#f7b05b"
-      //   }
-      // },
-      // {
-      //   "scope": ["support.type.map.key"],
-      //   "settings": {
-      //     "foreground": "#874191"
-      //   }
-      // },
-      {
-        "scope": ["entity.other.inherited-class"],
-        "settings": {
-          "foreground": "#42797a"
-        }
       }
-      // {
-      //   "scope": ["variable.parameter.url"],
-      //   "settings": {
-      //     "fontStyle": "",
-      //   }
-      // },
-      // {
-      //   "scope": ["meta.decorator.ts"],
-      //   "settings": {
-      //     "foreground": "#2e63a8",
-      //     // "fontStyle": "italic"
-      //   }
-      // }
-      // {
-      //   "scope": ["variable.other.readwrite.shorthandpropertyname"],
-      //   "settings": {
-      //     "foreground": "#2f2f2f"
-      //   }
-      // }
-      // {
-      //   "scope": [
-      //     "keyword.control",
-      //   ],
-      //   "settings": {
-      //     "foreground": "#35CE8D"
-      //     //"#81d2c7"
-      //    // "#998fc7" // "#f18f01" //"#FF5666"
-      //   }
-      // },
     ]
   },
   // "typescript.tsdk": "/Users/roman/.nvm/versions/node/v10.14.1/lib/node_modules/typescript/lib",
