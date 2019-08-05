@@ -151,6 +151,15 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.rightClickBehavior": "copyPaste",
+  "vsicons.associations.files": [
+    {
+      "icon": "tsconfig",
+      "filenamesGlob": ["tsconfig.build"],
+      "extensionsGlob": ["json"],
+      "format": "svg",
+      "filename": true
+    }
+  ],
   "vsicons.associations.folders": [
     {
       "icon": "db",
@@ -184,7 +193,6 @@
   "workbench.settings.settingsSearchTocBehavior": "filter",
   "workbench.settings.useSplitJSON": true,
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -217,12 +225,12 @@
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      // {
-      //   "scope": ["entity.other.attribute-name.pseudo-class"],
-      //   "settings": {
-      //     "foreground": "#93A1A1"
-      //   }
-      // },
+      {
+        "scope": ["meta.decorator.ts"],
+        "settings": {
+          "foreground": "#81d2c7" // "#93A1A1"
+        }
+      },
       // {
       //   "scope": ["entity.other.attribute-name.pseudo-element"],
       //   "settings": {
@@ -321,5 +329,8 @@
     "lang-cfml",
     "cfml",
     "HTML (Eex)"
-  ]
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.snippetsPreventQuickSuggestions": false
 }
